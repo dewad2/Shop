@@ -1,0 +1,52 @@
+{
+  "name": "myboilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack -w & nodemon ./server/main.js",
+    "start": "webpack -w & nodemon --watch server -e js,html server/main.js"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "chalk": "^1.1.3",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "nodemon": "^1.14.12",
+    "path": "^0.12.7",
+    "pg": "^6.1.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.1.0",
+    "save": "^2.3.2",
+    "sequelize": "^4.33.4",
+    "volleyball": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.14.11",
+    "webpack": "^3.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewad2/MyBoilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dewad2/MyBoilerplate/issues"
+  },
+  "homepage": "https://github.com/dewad2/MyBoilerplate#readme"
+}
